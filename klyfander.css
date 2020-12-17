@@ -1,0 +1,74 @@
+      body{
+	  background: #F9F9F9;
+	  color: #8F8F8F;
+      overflow:  hidden;
+}
+	   form[id="lateralbar"]{
+		position: absolute;
+		left:0;top: 0;
+		height: 100%;
+		width: 14%;
+		background: #EFEFEF;
+		overflow:  hidden;
+}
+		 form[id="bottomdisplay"]{
+		 position: absolute;
+		 left: 50px;
+		 bottom: -17px;
+		 background: #DEDEDE;
+		 width: 86% ;
+		 height: 30%;
+		 overflow:  hidden;
+}
+	    form[id="topdisplay"]{
+		position: absolute;
+		left: 50px;
+		top:  0px;
+		background: #F5F5F5;
+		width: 86% ;
+		height: 70%;
+		overflow:  hidden;
+}
+        img[id="logo"]{
+    	width: 35px;
+        padding: 7.5px 7.5px;
+} 
+div[id="run"]{
+	display: none;
+	}
+div[id="creator"]{
+	display: none;
+	}
+	img[class="scene"]{
+		width: 45px;
+		}
+		a{
+			color: #8F8F8F;
+			text-decoration: none;
+			}
+a[id="scene1"]{
+	position: absolute;
+	
+	left: 5px;
+   top: 5px;
+	
+	}
+	a[id="scene2"]{
+	position: absolute;
+	left: 80px;
+   top: 5px;
+	}
+	a[id="scene3"]{
+	position: absolute;
+	
+	left: 160px;
+   top: 5px;
+
+	}
+	a[id="scenem"]{
+	position: absolute;
+	
+	left: 240px;
+   top: 5px;
+	
+	}
